@@ -1,0 +1,17 @@
+name: anno_2d
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - plotly
+  - ipykernel
+  - dash
+  - scanpy
+  - anndata
+  - pillow
+  - pip
+  - pip:
+      - dash-daq
